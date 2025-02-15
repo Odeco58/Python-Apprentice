@@ -29,4 +29,5 @@ tina.forward(150)
 tina.left(90)
 
 
-turtle.exitonclick()                    # Close the window when we click on it
+turtle.exitonclick() 
+                   # Close the window when we click on it

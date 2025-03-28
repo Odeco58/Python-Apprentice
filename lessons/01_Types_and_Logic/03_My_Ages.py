@@ -50,3 +50,10 @@ window.mainloop()  # Keeps the window open
 
 # TODO: 
 # Try to write your program so you only need to use one messagebox.showinfo() function.
+
+
+import turtle
+turtle.setup(width=600, height=600)   
+tina = turtle.Turtle
+
+tina.write(" are you a mommy")

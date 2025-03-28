@@ -24,9 +24,40 @@ def make_a_shape(t):
 # The second ... in the for loop should be the number of shapes you want to make, 
 # for example 100, or it could use islice(), cycle(), or a list of numbers.
 
-num_shapes = ...
+import turtle
+
+t = turtle.Turtle()
+
+t.shape("turtle")
+
+t.width(2) 
+
+t.speed(0) 
 
 for i in range(40):
     
-    make_a_shape(t)
-    t.right(360/num_shapes)
+    t.width(2) 
+
+    t.speed(0) 
+   
+    t.pencolor("red")
+
+    t.forward(200) 
+
+    t.left(90) 
+
+    t.forward(64) 
+
+    t.right(200) 
+
+    t.forward(64) 
+
+    t.right(62) 
+
+    t.forward(200) 
+
+t.hideturtle() 
+
+turtle.exit_on_click()
+
+ 

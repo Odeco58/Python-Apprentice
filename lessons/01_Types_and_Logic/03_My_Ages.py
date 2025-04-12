@@ -41,19 +41,27 @@ window.withdraw() # Hide the window; we just want to see pop ups
 # Use if statements to determine the age group
 # and create a message
 
+age = simpledialog.askinteger("Your Age", "How old are you?") 
+
+if age<0:   
+    messagebox.showinfo('What you are', "You are not alive hee hee hee hee.")
+
+elif age<3:
+    messagebox.showinfo('What you are', "You are a baby.")
+
+elif age<6:
+    messagebox.showinfo('What you are', "You are a toddler.")
+
+elif age<12:
+    messagebox.showinfo('What you are', "You are a child.")
+elif age<20: 
+    messagebox.showinfo('What you are', "You are an old person if you are a teenager or above.")
+messagebox.showinfo('What you are', "You are a baby.")
 # Show the message to the user
 
-
-
-window.mainloop()  # Keeps the window open
+#window.mainloop()  # Keeps the window open
 
 
 # TODO: 
 # Try to write your program so you only need to use one messagebox.showinfo() function.
 
-
-import turtle
-turtle.setup(width=600, height=600)   
-tina = turtle.Turtle
-
-tina.write(" are you a mommy")

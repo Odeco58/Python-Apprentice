@@ -14,8 +14,6 @@ def getRandomColor():
     return "#%06X" % (random.randint(0, 0xFFFFFF))
 
 
-window = turtle.Screen()
-window.bgcolor("white")
 
 # Make a new turtle
 myTurtle = turtle.Turtle()

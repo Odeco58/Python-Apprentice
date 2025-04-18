@@ -56,7 +56,7 @@ elif age<12:
     messagebox.showinfo('What you are', "You are a child.")
 elif age<20: 
     messagebox.showinfo('What you are', "You are an old person if you are a teenager or above.")
-messagebox.showinfo('What you are', "You are a baby.")
+
 # Show the message to the user
 
 #window.mainloop()  # Keeps the window open

@@ -8,8 +8,16 @@ at the comments and the code snippets in the previous lessons, like
 
 
 """
+from tkinter import messagebox, simpledialog, Tk
+division = number1 / number2
+multiplication = number1 * number2
+addition = number1 + number2
+subtraction = number1 - number2
+operator = "division, multiplication, addition, subtraction "
+number1 = simpledialog.askinteger("Your number", "Pick a number.")
+number2= simpledialog.askinteger("Your number", "Pick a number.")
+messagebox.showinfo("wehth",number1 + number2)
 
-# Import the required modules
 
 # Create a window object
 

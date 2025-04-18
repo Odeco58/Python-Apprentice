@@ -21,9 +21,11 @@ you can ask for a string with simpledialog.askstring().
 
 """
 
-# Import the required modules
-
-# Create a window object
+from tkinter import messagebox, simpledialog, Tk
+operator1 = "addition, subtraction, multiplication, division"
+number1 = simpledialog.askinteger("Your number", "Pick a number.")
+number2 = simpledialog.askinteger("Your number", "Pick a number.")
+ 
 
 # Hide the window, hint: use the withdraw method
 

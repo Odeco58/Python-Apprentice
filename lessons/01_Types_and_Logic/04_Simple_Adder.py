@@ -1,4 +1,4 @@
-"""
+"""487578585
 Write a Python program that asks the user for two numbers. The program should
 display the sum of the two numbers.
 
@@ -8,15 +8,26 @@ at the comments and the code snippets in the previous lessons, like
 
 
 """
-from tkinter import messagebox, simpledialog, Tk
-division = number1 / number2
-multiplication = number1 * number2
-addition = number1 + number2
-subtraction = number1 - number2
-operator = "division, multiplication, addition, subtraction "
+from tkinter import messagebox, simpledialog 
 number1 = simpledialog.askinteger("Your number", "Pick a number.")
 number2= simpledialog.askinteger("Your number", "Pick a number.")
-messagebox.showinfo("wehth",number1 + number2)
+operator = simpledialog.askstring("Your number", "Pick an operator.")
+if operator =="/": 
+ division = number1 / number2
+ messagebox.showinfo('What you are', division)
+elif operator == "*": 
+ multiplication = number1 * number2
+ messagebox.showinfo('What you are', multiplication)
+elif operator == "-": 
+ subtraction = number1 - number2
+ messagebox.showinfo('What you are', subtraction)
+elif operator == "+": 
+ addition = number1 + number2
+ messagebox.showinfo('What you are', addition)
+
+
+
+
 
 
 # Create a window object

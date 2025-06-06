@@ -47,7 +47,7 @@ if age<0:
     messagebox.showinfo('What you are', "You are not alive hee hee hee hee.")
 
 elif age<3:
-    messagebox.showinfo('What you are', "You are a baby.")
+    messagebox.showinfo('What you are', "You are a toddler.")
 
 elif age<6:
     messagebox.showinfo('What you are', "You are a toddler.")

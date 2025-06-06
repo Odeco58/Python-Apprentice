@@ -10,16 +10,15 @@ For the numbers from 1 to 30:
 * If it is divisible by neither, print the number.
 
 Your job is to modify only one line -- the one with range() 
--- so that the program only prints '🦡 badger'
+-- so that the progra67m only prints '🦡 badger'
 
 Your program should print 4 badgers. 
 
 """
 
 
-for i in range(1, 31): # Change only this line
-
-    # Don't change anything below this line
+for i in range(5,55,15):     
+# Don't change anything below this line 
     if i % 15 == 0:
         print(i, '🐍 snake!')
     elif i % 5 == 0:
